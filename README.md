@@ -38,8 +38,33 @@ Kis, önálló REST szolgáltatás ügyfelek Budapesthez viszonyított távolsá
 
 ## Végpontok
 
-_(Task 8-ban kerül kiegészítésre példa `curl` hívásokkal.)_
+### `GET /customers/count`
+
+```
+curl http://localhost:3000/customers/count
+```
+
+```json
+{ "count": 15 }
+```
+
+### `GET /customers/by-distance`
+
+Ügyfelek listája Budapesthez viszonyított távolság szerint növekvő sorrendben. `distanceKm` 1 tizedesre kerekítve; ismeretlen koordinátájú ügyfelek a lista végén, `distanceKm: null`.
+
+```
+curl http://localhost:3000/customers/by-distance
+```
+
+```json
+[
+  { "id": 1, "name": "Anna Kovács", "telepules": "Budapest", "lat": 47.4979, "lon": 19.0402, "budget": 850, "note": "...", "distanceKm": 0 },
+  { "id": 2, "name": "Lena Fischer", "telepules": "Vienna", "lat": 48.2082, "lon": 16.3738, "budget": 950, "note": "...", "distanceKm": 214.4 }
+]
+```
 
 ## Fejlesztői eszközök
 
-_(Task 8-ban kerül kiegészítésre a Postgres MCP bekötés leírásával.)_
+### Postgres MCP
+
+A fejlesztéshez egy projektszintű Postgres MCP szerver van bekötve (`.mcp.json`), ami a docker-compose-ban futó adatbázisra mutat (`postgresql://postgres:postgres@localhost:5433/customers`). Ehhez a Postgres konténernek futnia kell (`docker compose up -d --wait`).
