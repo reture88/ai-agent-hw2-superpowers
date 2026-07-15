@@ -18,20 +18,24 @@ Kis, önálló REST szolgáltatás ügyfelek Budapesthez viszonyított távolsá
    ```
    pnpm install
    ```
-3. Séma létrehozása (idempotens):
+3. Környezeti változók beállítása:
+   ```
+   cp .env.example .env
+   ```
+4. Séma létrehozása (idempotens):
    ```
    pnpm run migrate
    ```
-4. Seed adat betöltése (idempotens — kétszer futtatva sem duplikál):
+5. Seed adat betöltése (idempotens — kétszer futtatva sem duplikál):
    ```
    pnpm run seed
    ```
-5. Szerver indítása fejlesztői módban:
+6. Szerver indítása fejlesztői módban:
    ```
    pnpm run dev
    ```
    Az API a `http://localhost:3000`-en érhető el.
-6. Tesztek futtatása (a fenti 1., 2. és 3. lépés szükséges hozzá — a Postgres-nek futnia és migráltnak kell lennie):
+7. Tesztek futtatása (a fenti lépések szükségesek hozzá — a Postgres-nek futnia és migráltnak kell lennie):
    ```
    pnpm test
    ```
