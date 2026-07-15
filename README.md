@@ -68,3 +68,5 @@ curl http://localhost:3000/customers/by-distance
 ### Postgres MCP
 
 A fejlesztéshez egy projektszintű Postgres MCP szerver van bekötve (`.mcp.json`), ami a docker-compose-ban futó adatbázisra mutat (`postgresql://postgres:postgres@localhost:5433/customers`). Ehhez a Postgres konténernek futnia kell (`docker compose up -d --wait`).
+
+Megjegyzés: `claude mcp list` a `postgres` szervert "Pending approval" státusszal listázhatja — ez várt viselkedés (a projektszintű MCP szerverek első használat előtt interaktív jóváhagyást igényelnek egy `claude` munkamenetben), nem hiba.
