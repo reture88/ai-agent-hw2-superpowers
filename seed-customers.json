@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Anna Kovács",
+    "budget": 850,
+    "location": { "city": "Budapest", "countryCode": "HU" },
+    "note": "Loves lush, jungle-style rooms and asks for a large ficus in every project. Prefers deep green foliage over anything with flowers."
+  },
+  {
+    "name": "Lena Fischer",
+    "budget": 950,
+    "location": { "city": "Vienna", "countryCode": "AT" },
+    "note": "Prefers architectural, sculptural plants that match her modernist furniture. Big fan of monstera and bird-of-paradise."
+  },
+  {
+    "name": "Jonas Weber",
+    "budget": 300,
+    "location": { "city": "Munich", "countryCode": "DE" },
+    "note": "Beginner with a very small budget and a dark home office. Needs shade-tolerant plants like a peace lily or a cast-iron plant."
+  },
+  {
+    "name": "Sofia Rossi",
+    "budget": 1500,
+    "location": { "city": "Milan", "countryCode": "IT" },
+    "note": "High-end Mediterranean look for a sunny terrace. Wants olive trees and citrus, dislikes anything that sheds leaves indoors."
+  },
+  {
+    "name": "Diego Martín",
+    "budget": 720,
+    "location": { "city": "Barcelona", "countryCode": "ES" },
+    "note": "Loves desert and arid themes. Asks specifically for cacti and succulents in terracotta pots, keeps watering to a minimum."
+  },
+  {
+    "name": "Lucas Dubois",
+    "budget": 500,
+    "location": { "city": "Lyon", "countryCode": "FR" },
+    "note": "Enjoys aromatic plants and a small kitchen herb corner. Wants basil, rosemary and a compact lemon tree if the light allows."
+  },
+  {
+    "name": "Katarzyna Nowak",
+    "budget": 380,
+    "location": { "city": "Kraków", "countryCode": "PL" },
+    "note": "Cozy, colourful style on a tight budget. Prefers flowering plants such as African violets and a bright orchid on the windowsill."
+  },
+  {
+    "name": "Petra Horáková",
+    "budget": 640,
+    "location": { "city": "Prague", "countryCode": "CZ" },
+    "note": "Wants an air-purifying focus for a family flat with kids. Interested in spider plant and areca palm, avoids anything toxic to pets."
+  },
+  {
+    "name": "Isabella Silva",
+    "budget": 560,
+    "location": { "city": "Lisbon", "countryCode": "PT" },
+    "note": "Tropical, warm vibe for a small balcony. Loves calathea for the patterned leaves but knows they need humidity and care."
+  },
+  {
+    "name": "Sanne de Vries",
+    "budget": 1100,
+    "location": { "city": "Amsterdam", "countryCode": "NL" },
+    "note": "Bright canal apartment with big windows and a designer look. Wants a statement monstera and a trailing pothos along the shelves."
+  },
+  {
+    "name": "Emma Andersson",
+    "budget": 700,
+    "location": { "city": "Stockholm", "countryCode": "SE" },
+    "note": "Scandinavian minimalism, pale wood and neutral pots. Likes one bold fiddle-leaf fig and otherwise easy, low-light plants."
+  },
+  {
+    "name": "Matej Horvat",
+    "budget": 450,
+    "location": { "city": "Ljubljana", "countryCode": "SI" },
+    "note": "Small starter budget for a cozy studio. Prefers hardy, forgiving plants like a snake plant and a ZZ plant near the desk."
+  },
+  {
+    "name": "Elena Popescu",
+    "budget": 820,
+    "location": { "city": "Bucharest", "countryCode": "RO" },
+    "note": "Warm, eclectic interior with lots of texture. Fond of ferns and a rubber plant, wants greenery that fills empty corners."
+  },
+  {
+    "name": "Niamh O'Brien",
+    "budget": 990,
+    "location": { "city": "Dublin", "countryCode": "IE" },
+    "note": "Classic style for a bright bathroom and hallway. Boston fern and maidenhair are favourites, loves anything that thrives in humidity."
+  },
+  {
+    "name": "Kristofer Nielsen",
+    "budget": 1300,
+    "location": { "city": "Copenhagen", "countryCode": "DK" },
+    "note": "Premium, calm palette for a double-height loft. Dreams of a tall kentia palm and a mature ficus lyrata as the centrepiece."
+  }
+]
